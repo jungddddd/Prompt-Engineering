@@ -1,0 +1,14 @@
+# 데이터 조회 및 출력
+conn = sqlite3.connect('sample.db')
+c = conn.cursor()
+
+# 테이블의 모든 데이터를 조회
+c.execute('SELECT * FROM conversations')
+
+# SQL 쿼리의 결과로 반환된 모든 행을 한꺼번에 가져오고 리스트로 반환
+conversations = c.fetchall()
+
+# 결과 출력
+print(conversations)
+
+conn.close()  # 데이터베이스 연결 종료
