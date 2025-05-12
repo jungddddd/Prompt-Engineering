@@ -1,11 +1,25 @@
-### 02_OpenAI API 사용 챗봇 개발
+# 🤖 생성형 AI 기반 챗봇 구현 실습 자료
 
-<br>
+**DGB 금융그룹 공모전 본선 진출자 대상 교육과정**에 참여하며 실습한 내용을 정리한 것입니다.  
+OpenAI API를 활용한 생성형 AI 이해부터, Flask 기반의 웹 챗봇 구현, RAG 응용까지 다양한 실습을 단계적으로 수행하였습니다.
 
-#### [1] OpenAI API 키 발급 <br>
-https://platform.openai.com/
 
-<br>
+## 📌 주요 실습 내용
 
-#### [2] Prompt Engineering Guide <br>
-https://www.promptingguide.ai/kr/techniques
+- **OpenAI API 기초 활용**
+  - API Key 등록 및 GPT 호출 실습
+  - LLM 파라미터 조정 및 다양한 응답 실험
+  - 프롬프트 엔지니어링의 기본 개념 학습
+
+- **Flask 기반 웹 챗봇 서버 구현**
+  - 기본 라우팅 및 API 연동 실습
+  - SQLite, MongoDB 기반 챗봇 DB 연동
+
+- **멀티모달 및 이미지 분석 실습**
+  - 이미지 입력 처리 및 시각적 분석 구현
+
+- **Function Calling 및 RAG 응용**
+  - 외부 함수 호출(Function Calling) 실습
+  - 문서 검색 기반 응답(RAG) 구현 실습
+
+
